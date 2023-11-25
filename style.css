@@ -458,9 +458,10 @@ ul {
     border: 1px solid #555;
 }
 
-
-
-
-
-
+.courses-to-offer {
+  margin-bottom: 10px;
+  padding: 10px 20px 20px;
+  font-size: 14px;
+  line-height: 1.8;
+}
 
