@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UG | Department Of Computer Science</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/comScience_logo.png"></a>
+            <div class="nav-links" id="navLinks"> 
+                <i class="fa fa-times" onclick="hideMenu()">&#10006;</i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="research.html">Research Groups</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="">Catalog</a></li>
+                    <li><a href="">Event</a></li>
+                    <li><a href="faculty.html">Faculty</a></li>
+                </ul>
+            </div>    
+            <i class="fa fa-bars" onclick="showMenu()">&#9776;</i>
+        </nav>
+
+    <div class="text-box">
+        <h1>Contact Us</h1>
+    </div>
+</section>
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/d/embed?mid=1yRvIXw7Qnffqk5G4SwXXZHNvCi4&hl=en_US&ehbc=2E312F" width="640" height="480"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa">&#x1F3E0; </i>
+                <span>
+                    <h5>Accra Mall Road, Airpot Road</h5>
+                    <p>Legon City Mall</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa">&#9742;</i>
+                <span>
+                    <h5>+233 501 382 035</h5>
+                    <p>Mon to Fri 9am to 5pm</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o">&#9993;</i>
+                <span>
+                    <h5>dcs@ug.edu.gh</h5>
+                    <p>send us your query anytime!</p>
+                </span>
+            </div>
+            <div class="contact-col">
+                <form class="handle-form.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter subject" required>
+                    <textarea rows="8" name="Message" placeholder="Message" required></textarea>
+                    <button type="submit" class="sub-btn hero-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Academics</h3>
+                <p>Undergraduate Courses </p>
+                <p>Graduate Courses(MSc Computer Science)</p>
+                <p>Graduate Courses(MPhil Computer Science)</p>
+                <p>Graduate Courses(phD)</p>
+                <p>Academic Calendar</p>
+                <p>Level 200 & 300 Timetable</p>
+                <p>Placement For level 200 students<br>Student Complain Form</p>
+               
+            </div>
+            <div class="footer-col-2">
+                <h3>Admissions</h3>
+                <p>Undergraduate</p>
+                <p>Graduate</p>
+                <p>International Students</p>
+                <p>Entry Requirement</p>
+                <p>Contact Us</p>
+            </div>
+            
+            <div class="footer-col-3">
+                <h3>Research</h3>
+                <ul>
+                    <p>Research at DCS</p>
+                    <p>Research Impact</p>
+                    <p>Libraries</p>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>About The Department</h3>
+                    <p>Introducing DCS</p>
+                    <p>Head of Department's Office</p>
+                    <p>Facultty</p>
+                    <p>Events</p>
+            </div>
+                
+        </div>
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Contact Us</h3>
+                <p>+233 501 382 035</p>
+                <p>+233 559 145 698</p>
+                <p>email: dcs@ug.edu.gh</p>
+            </div>
+                <div class="footer-col-2">
+                    <h3>Location</h3>
+                    <p>University Of Ghana, Legon Campus</p>
+                    <p>Opposite Mathematics Department</p>
+                </div>
+        </div>
+        <div class="icons">
+            <i class="fa fa-facebook">
+                <img src="images/Instagram.png" width="50px">
+                <img src="images/Facebook.png" width="50px">
+                <img src="images/YouTube.png" width="50px">
+                <img src="images/Twitter.png" width="50px">
+            </i>
+        </div>
+        <hr>
+        <p class="copyright">Copyright @2023</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!------------Javascript for close and Menu icons--------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
