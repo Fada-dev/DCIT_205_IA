@@ -465,4 +465,111 @@ ul {
   line-height: 1.8;
 }
 
+
 /*Yearly Courses For Undergraduate*/
+.client-info {
+    text-align: center;
+    margin-top: 7%;
+}
+.undergraduate-cs-courses{
+    /* height: 800px; no height sets the expansion feature to the page itself*/
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     column-gap: 5px;
+     padding-top: 50px;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ 
+ .level100-courses{
+    /* height: 600px; no height sets the expansion feature to the page itself*/
+ }
+ 
+ .level{
+     width: 100%;
+     height: 40px;
+     background-color: ;
+     color: #333;
+     text-align: center;
+     line-height: 40px;
+     transition: height 0.5s ease;
+     overflow: hidden;
+     border-top: 8px solid #c5a102ec;
+     box-shadow: 1px 2px 20px rgb(144, 142, 142);
+     cursor: pointer;
+     font-family: sans-serif;
+ }
+ 
+   
+ .fixed-content {
+     position: relative;
+     border-bottom: 1px solid rgb(177, 4, 14);
+     font-weight: bold;
+     font-size: 20px;
+     transition: 0.5s;
+ }
+ .fixed-content:hover {
+    background: radial-gradient(#1d87ff00, #c5a102ec);
+
+ }
+   
+ .expanding-content {
+     display: none;
+ }
+ 
+ .courses-container{
+     display: grid;
+     grid-template-rows: 1fr 1fr;
+ }
+ 
+ .first-semester{
+     display: grid;
+     grid-template-rows: 30px 1fr;
+ }
+ 
+ .first-semester b{
+     font-size: 15px;
+     text-align: center;
+     font-family: sans-serif;
+     text-transform: uppercase;
+     color: rgb(1, 113, 203);
+ }
+ 
+ .semester-courses{
+     display: grid;
+     grid-template-columns: 70px 1fr;
+     border-top: 1px solid #c5a102ec;
+     padding-left: 30px;
+   }
+ 
+   .course-codes{
+     /*border-right: 1px solid rgb(177, 4, 14);*/
+   }
+ 
+ .codes-list{
+     list-style-type: none;
+     font-size: 13px;
+     position: relative;
+     left: -35px;
+     font-family: sans-serif;
+     color: black;
+ }
+   
+ 
+   .course-titles{
+     text-align: left;
+ }
+ 
+ .course-titles ul{
+     list-style-type: none;
+     font-size: 14px;
+     position: relative;
+     left: -30px;
+     font-family: sans-serif;
+     color: black;
+ }
+ 
+ 
+ .level.expanded {
+     height: auto; /* Expanded height for the whole content */
+ }
