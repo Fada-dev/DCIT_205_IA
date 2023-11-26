@@ -573,3 +573,17 @@ ul {
  .level.expanded {
      height: auto; /* Expanded height for the whole content */
  }
+
+ /*Yearly Courses For Mphil & MsC*/
+ .Mphil-row {
+    display: flex;
+    text-align: center;
+ }
+.Mphil-text {
+    line-height: 2.0;
+}
+
+#mphil-courses1 {
+    margin-left: 50px;
+    padding-left: 30px;
+}
