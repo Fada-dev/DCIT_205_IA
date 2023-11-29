@@ -501,8 +501,15 @@ ul {
 /*Yearly Courses For Undergraduate*/
 .client-info {
     text-align: center;
-    margin-top: 7%;
+    margin-top: 7%;   
 }
+
+
+
+
+
+/* UNDERGRADUATE COURSES*/
+
 .undergraduate-cs-courses{
     /* height: 800px; no height sets the expansion feature to the page itself*/
      display: grid;
@@ -572,6 +579,7 @@ ul {
      display: grid;
      grid-template-columns: 70px 1fr;
      padding-left: 50px;
+     border-top: 1px solid rgb(177, 4, 14);
      /*inline-size: 150px; */
      
 }
@@ -583,7 +591,7 @@ ul {
  
  .codes-list{
      list-style-type: none;
-     font-size: 12px;
+     font-size: 11px;
      position: relative;
      left: -35px;
      font-family: sans-serif;
@@ -593,19 +601,15 @@ ul {
  
 .course-titles{
      text-align: left;
-     font-size: 12px;
-
  }
  
  .course-titles ul{
      list-style-type: none;
-     font-size: 12px;
+     font-size: 11px;
      position: relative;
-     left: -20px;
+     left: -30px;
      font-family: sans-serif;
      color: black;
-     inline-size: 150px;
-
  }
  
  
